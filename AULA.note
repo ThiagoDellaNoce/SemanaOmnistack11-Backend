@@ -1,0 +1,73 @@
+
+/*
+ * Rota / Recurso
+ 
+ * Métodos HTTP:
+
+ * GET: Buscar/listar uma informação
+ * POST: Criar uma informação
+ * PUT: Alterar uma informação 
+ * DELETE: Deletar uma informação
+ 
+
+ 
+ * Tipo de parâmetros:
+
+ * Query params:Parâmetros nomeados enviados na rota após "?" [usado para Filtros, paginação] (post?page=2)
+ *      Para pegar a info: "request.query"
+ * 
+ * Route params: ParÂmetros utilizados para identificar recursos [usado para fazer buscas por "id"] (post/1)
+ *      Para pegar a info: "request.params"
+ * 
+ * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos [usado para conjunto/pacote maior de dados]
+ *      Para pegar a info: "request.body"
+ 
+  
+  
+ * Banco de dados: 
+ * 
+ *  SQL: MYSQL, **SQLite**, PostgreSQL, Oracle, Microsoft SQL Server
+ *  NoSQL: MongoDB, CouchDB etc
+ 
+  
+  
+  
+ * Driver: SELECT * FROM users;
+ * Query Builder: table('users').select('*').where();
+ * 
+ * 
+ */
+
+ - ENTIDADES
+ ong
+ casos (incident)
+
+ - FUNCIONALIDADES
+Login de ong
+Cadastro de ong
+Logout de ong
+Listar casos específicos de uma ong
+Cadastrar casos
+Deletar casos
+Listar todos os casos
+Entrar em contato com a ong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
